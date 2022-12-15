@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="512.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.computerscienceia.Main">
+   <children>
+      <Label layoutX="33.0" layoutY="14.0" text="Terrains ">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font></Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#215ed0" height="60.0" layoutX="18.0" layoutY="281.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIGHTGREEN" height="60.0" layoutX="14.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#07721c" height="60.0" layoutX="14.0" layoutY="49.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREY" height="60.0" layoutX="14.0" layoutY="116.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Label layoutX="37.0" layoutY="70.0" text="Forest" />
+      <Label layoutX="101.0" layoutY="54.0" prefHeight="32.0" prefWidth="244.0" text="A unit that enters a Forest or Village Hex must stop and may move no further on that turn" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="90.0" prefHeight="32.0" prefWidth="262.0" text="A unit  may not battle the turn it moves onto a Forest or Village hex" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="116.0" prefHeight="60.0" prefWidth="244.0" text="When battling an enemy unit that is on a Forest or Village hex, Infantry reduce the number of Battle dice by 1 and Tanks reduce the number of Battle dice by 2" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="138.0" text="Village" textAlignment="CENTER" />
+      <Label layoutX="39.0" layoutY="224.0" text="Plains" />
+      <Label layoutX="124.0" layoutY="225.0" text="No effect on movement or battle">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="289.0" prefHeight="44.0" prefWidth="64.0" text="Rivers and Waterways" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Line endX="248.5" layoutX="115.0" layoutY="190.0" startX="-100.0" />
+      <Line endX="177.5" layoutX="177.0" layoutY="271.0" startX="-160.5" />
+      <Line endX="4.5" endY="332.9927673339844" layoutX="363.0" layoutY="26.0" startX="4.5" startY="-10.0" />
+      <Label layoutX="110.0" layoutY="289.0" prefHeight="44.0" prefWidth="244.0" text="Impassable terrain. A unit may oly enter a River hex when the hex has a bridge" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="441.0" layoutY="14.0" text="Obsactles">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREY" height="44.0" layoutX="384.0" layoutY="38.0" rotate="36.3" stroke="BLACK" strokeType="INSIDE" width="64.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREY" height="32.0" layoutX="384.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="57.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREY" height="7.0" layoutX="370.0" layoutY="207.0" rotate="126.9" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREY" height="7.0" layoutX="370.0" layoutY="207.0" rotate="-140.8" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="7.0" layoutX="366.0" layoutY="278.0" rotate="40.6" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="7.0" layoutX="397.0" layoutY="278.0" rotate="-41.6" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5a5a5a" height="24.0" layoutX="382.0" layoutY="325.0" stroke="BLACK" strokeType="INSIDE" width="54.0" />
+      <Label layoutX="395.0" layoutY="51.0" text="Bridge" />
+      <Label layoutX="467.0" layoutY="43.0" prefHeight="32.0" prefWidth="117.0" text="Allows to move on rivers" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="82.0" prefHeight="115.0" prefWidth="145.0" text="When battling an enemy unit that is in a Bunker, Infantry reduce the number of dice by 1 and Tanks reduce the number of dice by 2" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="390.0" layoutY="131.0" text="Bunker" textAlignment="CENTER" />
+      <Line endX="206.17327880859375" endY="-7.62939453125E-6" layoutX="384.0" layoutY="106.0" startX="-6.5946044921875" startY="-7.62939453125E-6" />
+      <Label layoutX="379.0" layoutY="241.0" text="HedgeHogs" textAlignment="CENTER" />
+      <Line endX="187.12738037109375" endY="4.409576416015625" layoutX="401.0" layoutY="176.0" startX="-19.8135986328125" startY="4.409576416015625" />
+      <Label layoutX="437.0" layoutY="186.0" prefHeight="49.0" prefWidth="152.0" text="Only an infantry may enter a HedgeHog" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Line endX="187.12738037109375" endY="4.409576416015625" layoutX="391.0" layoutY="253.0" startX="-19.8135986328125" startY="4.409576416015625" />
+      <Line endX="187.12738037109375" endY="4.409576416015625" layoutX="399.0" layoutY="307.0" startX="-19.8135986328125" startY="4.409576416015625" />
+      <Label layoutX="383.0" layoutY="292.0" text="Sand Bags" textAlignment="CENTER" />
+      <Label layoutX="392.0" layoutY="349.0" text=" Wires" textAlignment="CENTER" />
+      <Label layoutX="441.0" layoutY="224.0" prefHeight="115.0" prefWidth="145.0" text="When battling an enemy unit that is in sandBags, reduce the number of dice by 1" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="441.0" layoutY="313.0" prefHeight="72.0" prefWidth="145.0" text="A unit that enters Wires must stop and may move no further on that turn" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="438.0" layoutY="369.0" prefHeight="32.0" prefWidth="164.0" text="A unit  may not battle the turn it moves into Wires" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Line endX="244.92401123046875" layoutX="111.0" layoutY="357.0" startX="-100.0" />
+      <Label layoutX="150.0" layoutY="366.0" text="Units">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="411.0" text="Infantry" />
+      <Label layoutX="24.0" layoutY="382.0" text="I I" textFill="#478a64">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="387.0" prefHeight="28.0" prefWidth="305.0" text="Can move a distance 0 / 1 and shoot; or 2 without shooting" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="405.0" prefHeight="28.0" prefWidth="305.0" text="Shoot number of dice [3,2,1]" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="440.0" text="T T" textFill="#478a64">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="468.0" text="Tanks" />
+      <Label layoutX="59.0" layoutY="440.0" prefHeight="28.0" prefWidth="195.0" text="Can move a distance 0 / 1/ 2 3 and shoot" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="463.0" prefHeight="28.0" prefWidth="149.0" text="Shoot number of dice [3,3,3]" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="439.0" text="A A " textFill="#478a64">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="476.0" text="Artillerie" />
+      <Label layoutX="345.0" layoutY="440.0" prefHeight="28.0" prefWidth="256.0" text="Can move a distance 0 and shoot; or 1 wihtout shooting" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="344.0" layoutY="470.0" prefHeight="28.0" prefWidth="160.0" text="Shoot number of dice [3,3,2,2,1,1]" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Line endX="343.1532287597656" layoutX="23.0" layoutY="440.0" startX="-7.999990463256836" />
+      <Line endX="-4.184844970703125" endY="11.201934814453125" layoutX="266.0" layoutY="491.0" startX="-4.184844970703125" startY="-34.82958984375" />
+      <Line endX="-12.0" endY="55.0" layoutX="377.0" layoutY="378.0" startX="-12.892608642578125" startY="-8.777984619140625" />
+      <Line endX="206.17327880859375" layoutX="384.0" layoutY="420.0" startX="-7.6175537109375" />
+   </children>
+</AnchorPane>
